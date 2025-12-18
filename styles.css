@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    color: white;
+}
+input{
+    width: 16rem; ;
+    height: 2rem;   
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+h1{
+    text-align: center;
+}
+.container{
+    border: 2px solid white;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: 30%;
+    border-radius: 1rem;
+    background-color: rgb(140, 104, 207);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+#add-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#delete-all-btn{
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    width: 17rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background: rgb(206, 25, 25);
+    color: white;
+}
+
+.delete-icon{
+    background: transparent;
+    border: none;
+    color: #ff6b6b;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.delete-icon:hover{
+    transform: scale(1.1);
+}
+
+#task-list{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    max-height: 10rem;
+    overflow-y: auto;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.1);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.task .text{
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.task.done .text{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.actions button{
+    margin-left: 0.25rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.empty{
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* popup */
